@@ -1,0 +1,50 @@
+button{
+    background-color: rgba(85, 84, 84, 0.7);
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 200px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: opacity 0.15s;
+}
+button:hover{
+    opacity: 0.5;
+}
+button:active{
+    opacity: 0.7;
+}
+.out{
+    background-color: rgba(44, 44, 44, 0.7);
+}
+.equal{
+    background-color: rgb(255, 69, 0);
+}
+div{
+    font-family: Roboto;
+}
+.grid{
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 100px;
+    max-width: 500px;
+    overflow: hidden;
+}
+body{
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+}
+#display{
+    background-color: rgb(10, 10, 10);
+    color: white;
+    font-size: 2rem;
+    padding: 14px;
+    padding-right: 90px;
+    border: none;
+    text-align: right;
+    outline: none;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+        <script src="calculator.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="grid" id="calculator">
+            
+            <div>
+                <input type="text" id="display" readonly>
+            </div>
+            <div>
+                <button onclick="Clear()" class="out">
+                    AC
+                </button>
+                <button onclick="AppendToDisplay('%')" class="out">
+                    &#37;	
+                </button>
+                <button onclick="Clear()"  class="out">
+                    C
+                </button>
+                <button onclick="AppendToDisplay('/')" class="out">
+                    /
+                </button>
+            </div>
+            <div>
+                <button onclick="AppendToDisplay('7')">
+                    7
+                </button>
+                <button onclick="AppendToDisplay('8')">
+                    8
+                </button>
+                <button onclick="AppendToDisplay('9')">
+                    9
+                </button>
+                <button onclick="AppendToDisplay('*')" class="out">
+                    *
+                </button>
+            </div>
+            <div>
+                <button onclick="AppendToDisplay('4')">
+                    4
+                </button>
+                <button onclick="AppendToDisplay('5')">
+                    5
+                </button>
+                <button onclick="AppendToDisplay('6')">
+                    6
+                </button>
+                <button onclick="AppendToDisplay('-')" class="out">
+                    &#45;	
+                </button>
+            </div>
+            <div>
+                <button onclick="AppendToDisplay('1')">
+                    1
+                </button>
+                <button onclick="AppendToDisplay('2')">
+                    2
+                </button>
+                <button onclick="AppendToDisplay('3')">
+                    3
+                </button>
+                <button  onclick="AppendToDisplay('+')" class="out">
+                    &#43;	
+                </button>
+            </div>
+            <div>
+                <button onclick="AppendToDisplay('00')">
+                    00
+                </button>
+                <button onclick="AppendToDisplay('0')">
+                    0
+                </button>
+                <button onclick="AppendToDisplay('.')">
+                    &#46;	
+                </button>
+                <button onclick="Equal()" class="equal">
+                    &#61;	
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
