@@ -1,0 +1,30 @@
+input{
+    font-family: Arial;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-width: 1px;
+    border-radius: 8px;
+    border-style: solid;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+.email{
+    padding-right: 227px;
+    display: block;
+}
+.button1{
+    background-color: rgb(0, 102, 255);
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 169px;
+    padding-left: 169px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+}

@@ -1,0 +1,63 @@
+div{
+    font-family: Arial;
+    margin: 0;
+}
+.grid{
+    display: flex;
+}
+.grid2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.grid3{
+    display: flex;
+    flex: 1;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(189, 189, 189);
+    border-radius: 18px;
+    align-items: center;
+    overflow: hidden;
+}
+.img{
+    width: 50px;
+    flex-shrink: 0;
+}
+.img1{
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 80px;
+}
+.name{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.tag{
+    font-weight: 400;
+    color: rgb(99, 99, 99);
+}
+.tweet-text{
+    margin-bottom: 15px;
+}
+.img2{
+    width: 50px;
+}
+.background{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(189, 189, 189);
+    flex-shrink: 0;
+}
+.youtube-div{
+    margin-left: 15px;
+}
+.youtube{
+    color: rgb(65, 65, 65);
+    margin-bottom: 5px;
+}
+.youtube-title{
+    line-height: 22px;
+}

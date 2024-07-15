@@ -1,0 +1,26 @@
+p{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.money{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.money1{
+    font-size: 25px;
+    color: rgb(69, 69, 69);
+}
+.today{
+    font-size: 25px;
+    color: rgb(0, 122, 0);
+    margin-bottom: 8px;
+}
+.hour{
+    font-size: 24px;
+    color: rgb(69, 69, 69);
+}
+.hour1{
+    color: rgb(223, 0, 0);
+    margin-left: 2px;
+}
