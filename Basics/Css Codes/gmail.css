@@ -1,0 +1,56 @@
+.grid{
+    display: flex;
+    flex-direction: column;
+    width: 415px;
+    border-radius: 4px;
+    padding: 8px 0 28px 14px;
+    margin: 0;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); 
+}
+.grid2{
+    display: flex;
+    flex-direction: row;
+    margin: 18px 0 0 0;
+    align-items: center;
+}
+.grid3{
+    display: flex;
+    justify-content: space-between;
+}
+div{
+    font-family: Arial;
+    margin: 0 0 0 0;
+}
+.text{
+    flex: 1;
+    margin-left: 10px;
+    line-height: 23px;
+}
+.inbox{
+    font-size: 14px;
+    color: rgb(97, 97, 97);
+}
+.img1{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 80px;
+}
+.t11{
+    font-size: 18px;
+    font-weight: 500;
+}
+.t12{
+    font-size: 13px;
+    color: rgb(97, 97, 97);
+    margin-right: 16px;
+}
+.t2{
+    font-size: 16px;
+    font-weight: 600;
+}
+.t3{
+    font-size: 15px;
+    color: rgb(97, 97, 97);
+}
