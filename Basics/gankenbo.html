@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="Css Codes/gankenbo.css">
+        <script src="Javascript Codes/gankenbo.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+       <div>
+            <p class="title">
+                GAN KEN BON
+            </p>
+       </div>
+       <div class="grid">
+            <div class="RPS">
+                <div class="R">
+                    <button onclick="Comparing('Rock')" class="R1">
+                        <img src="Images/rock-emoji.png" class="rps">
+                    </button>
+                </div>
+                <div class="P">
+                    <button onclick="Comparing('Paper')" class="P1">
+                        <img src="Images/paper-emoji.png" class="rps">
+                    </button>
+                </div>
+                <div class="S">
+                    <button onclick="Comparing('Scissors')" class="S1">
+                        <img src="Images/scissors-emoji.png" class="rps">
+                    </button>
+                </div>
+            </div>
+            <div>
+                <p class="js-result result"></p>
+                <p class="js-moves moves"></p>
+                <p class="js-score"></p>
+            </div>
+            <div>
+                <button onclick="Reset()" class="but">
+                    RESET SCORE
+                </button>
+            </div>
+       </div> 
+    </body>
+</html>
